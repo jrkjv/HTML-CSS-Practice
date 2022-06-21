@@ -1,0 +1,63 @@
+<!--
+    <main> for the main content of a webpage, unique to that page
+    <section> defines a certain sectoin of a webpage (e.g. blog list, conatact info)
+    <article> defines a bit of the content which makes up an artcile (e.g. a blog post)
+    <aside> defines some content related to something else (e.g. similar blogs)
+    <header> for the header of a website - contains a nav, title etc
+    <footer> for the footer of a website
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="semantictags.css">
+    <title>Marioclub</title>
+</head>
+<body>
+    
+    <header>
+        <h1>Marioclub</h1>
+    </header>
+    <section class="banner">
+        <img src="img/banner.png" alt="marioclub welcome banner">
+        <div class="welcome">
+            <h2>Welcome to <br><span>Marioclub</span></h2>
+        </div>
+    </section>
+    <nav class="main-nav">
+        <ul>
+            <li><a href=".join.html" class="join">Join the club</a></li>
+            <li><a href="/news.html">Latest News</a></li>
+            <li><a href="/games.html">New Games</a></li>
+            <li><a href="/contact.html">contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <article>
+            <h2>It's a me, Mario</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit amet voluptatum explicabo eos est? Repellat perferendis cum, 
+                ipsum magni aperiam, iste numquam possimus sapiente impedit ullam repudiandae nulla similique soluta! Lorem ipsum dolor, sit amet consectetur 
+                adipisicing elit. Quae iste dolores doloribus nulla assumenda error qui nam reiciendis dolorem! Distinctio, natus aspernatur qui 
+                eaque suscipit explicabo dicta est ratione ducimus. Lorem</p>
+        </article>
+        <ul class="images">
+            <li><img src="img/thumb-1.png" alt="mario thumb 1"></li>
+            <li><img src="img/thumb-2.png" alt="mario thumb 2"></li>
+        </ul>
+    </main>
+    <section class="join">
+        <h2>Joing today!</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Est nobis tempore tempora necessitatibus illum doloremque 
+            consectetur hic qui quod temporibus expedita obcaecati repellendus 
+            officiis nam minima quasi, recusandae quis debitis.</p>
+        <form>
+            <input type="email" name="email" placeholder="Type email & hit eneter" required>
+        </form>
+    </section>
+    <footer>
+        <p class="copyright">Copyright 2022 Marioclub</p>
+    </footer>
+
+</body>
+</html>

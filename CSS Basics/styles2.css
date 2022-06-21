@@ -1,0 +1,12 @@
+span{
+    /*display: block; changes inline to block*/
+    display: inline-block; /*gives it attributes of both inline and block */
+    margin: 20px;
+    padding: 20px;
+}
+div{
+   /* display: inline;  changes block to inline*/
+   border: 2px solid crimson;
+   margin: 20px;
+   padding: 20px;
+}

@@ -1,0 +1,36 @@
+/*this is a comment*/
+/*here i made a style sheet that will change the h1 and ALL p to whatever i set
+  i then linked it to index & about to apply those changes*/
+  h1{
+    color: orange;
+    background-color: slategrey;
+    font-size: 75px;  /*changes font size*/
+    text-decoration: underline;  /*allows you to underline, strike through, etc etc */
+    font-family: Arial, Helvetica, sans-serif; /*allows you to change the font*/
+    text-align: center; /*puts the text in the right/left/center */
+}
+ 
+p{
+    color:gray;
+    text-align: right;
+    line-height: 30px;  /*adjuts how big each line is (top to bottom)*/
+    letter-spacing: 2px; /*adjusts how much space is inbetween each letter*/
+    column-count: 2; /*breaks the text into columns*/
+    column-gap: 60px; /*adjusts the gap between the columns*/
+}
+ul{
+    border-width: 4px; /*adds a border*/
+    border-style: dashed; /*what border style you want*/
+    border-color: crimson;
+
+}
+ 
+h2{
+    border: 4px solid salmon; /*does all of what's in ul in one line*/
+    /* could also do the samel for border-bottom/left/right to just change those specific parts*/
+}
+li{
+    list-style-type: square;
+    /*text-shadow: 2px 2px lightgrey; makes a shadow of the text, always you to change its position and color*/
+    text-shadow: 2px 2px #E9E9E9;
+}
